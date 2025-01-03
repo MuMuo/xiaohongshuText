@@ -15,6 +15,7 @@ if submit:
         #st.info("将使用默认api_key")
         #api_key = os.getenv("OPENAI_API_KEY")
         st.info("请输入你的openai_api秘钥")
+        st.stop()
     if not theme:
         st.info("请输入主题")
         st.stop()
