@@ -3,11 +3,10 @@ from utils import xiaohongshu_generator
 import json
 
 st.title("爆款小红书AI写作助手")
-st.header("爆款小红书写作助手")
 with st.sidebar:
     api_key = st.text_input("请输入OpenAi API秘钥", type="password")
 
-theme = st.text_input("主题")
+theme = st.text_input("请输入想要创作的主题")
 submit = st.button("开始写作")
 
 if submit:
