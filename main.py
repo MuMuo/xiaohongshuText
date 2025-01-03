@@ -2,7 +2,7 @@ import streamlit as st
 from utils import xiaohongshu_generator
 import json
 
-st.title("爆款小红书AI写作助手")
+st.title("小红书爆款AI写作助手")
 with st.sidebar:
     api_key = st.text_input("请输入OpenAi API秘钥", type="password")
 
